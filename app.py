@@ -38,6 +38,7 @@ options2=[
  {'label':'Orange Zone','value':'Orange Zone'}
 ]
 app = dash.Dash(__name__,external_stylesheets=external_stylesheet)
+server= app.server
 app.layout= html.Div([
  html.H1("cororna virus pandemic",style={'color':'#fff', 'text-align':'center'}),
  html.Div([
